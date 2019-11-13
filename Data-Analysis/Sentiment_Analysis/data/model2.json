@@ -1,0 +1,7 @@
+{"classifier":"knn",
+ "classifier_args":{},
+ "lowercase":"true",
+ "map_to_synsets":"true",
+ "map_to_lex":"true",
+ "duplicates":"true"
+}

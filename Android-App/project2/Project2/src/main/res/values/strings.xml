@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Quiz</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_user_add">UserAdd</string>
+    <string name="title_activity_user_list">UserList</string>
+    <string name="title_activity_question_add">QuestionAdd</string>
+    <string name="title_activity_question_list">QuestionList</string>
+    <string name="title_activity_question_answer">QuestionAnswer</string>
+    <string name="title_activity_admin_index">AdminIndex</string>
+
+    <string name="results">%1$d guesses, %2$.02f%% correct</string>
+    <string name="incorrect_answer">Incorrect!</string>
+</resources>

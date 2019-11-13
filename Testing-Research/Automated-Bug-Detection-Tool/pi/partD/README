@@ -1,0 +1,18 @@
+ECE653
+Assignment 3 Part1(D) description
+
+The main idea of this approach is to consider the order for pipair, while discovering bug by the method of part1(A)
+The only difference with Part1(A) is that HashMap 'location' changed from Map<Set,Set> into Map<List,Set>
+The Map<List,Set> can help distinguish [A,B] from [B,A], and store pipair with same element such as [A,A]
+
+
+The running mothod is the same with part1(A)
+run the command as below in test folder on eceLinux
+1 make
+2 cd test3
+3 ../pipair test3.bc 3 65
+
+
+The bug output include:
+1 the reduced bug for Part1(A)
+2 the new bug for Part1(D)

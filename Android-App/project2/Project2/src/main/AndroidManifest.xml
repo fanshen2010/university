@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.fansh.quiz">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".UserAdd"
+            android:label="@string/title_activity_user_add"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".UserList"
+            android:label="@string/title_activity_user_list"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".QuestionAdd"
+            android:label="@string/title_activity_question_add"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".QuestionList"
+            android:label="@string/title_activity_question_list"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".QuestionAnswer"
+            android:label="@string/title_activity_question_answer"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AdminIndex"
+            android:label="@string/title_activity_admin_index"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>
